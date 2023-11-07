@@ -4,7 +4,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import java.util.Scanner;
 
-public class Main { //Comment made to test automatic pipeline start
+public class Main {
     private static final Logger logger = LogManager.getLogger(Main.class);
     public static void main(String[] args) {
         logger.info("Start of Execution");
@@ -12,7 +12,7 @@ public class Main { //Comment made to test automatic pipeline start
         Scanner sc = new Scanner(System.in);
 
         while(true) {
-            System.out.println("--Welcome to Calculator--");
+            System.out.println("-----Welcome to Calculator-----");
             System.out.println("Choose your operation");
 
             System.out.println("1. Addition");
