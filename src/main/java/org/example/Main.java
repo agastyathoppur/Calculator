@@ -67,7 +67,7 @@ public class Main {
         return z;
     }
     public static int mul(int x, int y) {
-        logger.info("START OP: Mul");
+        logger.info("START OP: Multiplication");
         int z = x*y;
         logger.info("END OP: Mul");
         return z;
